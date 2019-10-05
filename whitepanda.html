@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<title>Task</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+.sidnav a {
+  float: left;
+  display: block;
+  color: #b3b3b3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border-right: 3px solid transparent;
+}
+
+.sidnav a:hover {
+  border-right: 3px solid #00c79f;
+}
+
+.sidnav a.active {
+  border-right: 3px solid #00c79f;
+}
+
+.f i {
+  float: center;
+  display: inline-block;
+  color: #b3b3b3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  border-right: 3px solid transparent;
+}
+
+.button {
+  background-color: #ebf7f5;
+  border-radius:12px;
+  border: 2px solid #00c79f;
+  color: #00c79f;
+  padding: 12px 25px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.buttons {
+  background-color: #ebf7f5;
+  border-radius:4px;
+  border: 2px solid #00c79f;
+  color: #00c79f;
+  padding: 8px 40px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: green;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+  font-family: arial;
+  padding: 50px;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #000   
+  text-align:center;
+  background: #40ff6a;
+  display:inline-block;
+  padding: 6px;
+}
+
+a.fa-bell {
+  position: relative;
+  font-size: 30px;
+  color: grey;
+  cursor: pointer;
+}
+span.fa-circle {
+  position: absolute;
+  font-size: 25px;
+  top: -4px;
+  color: red;
+  right: -4px;
+}
+span.num {
+  position: absolute;
+  font-size: 12px;
+  top: 1px;
+  color: #fff;
+  right: -2px;
+}
+
+</style>
+<body class="w3-content" style="max-width:100%">
+
+<!-- Sidebar/menu -->
+
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="width:65px;border-right:1px solid #ccccd3" id="mySidebar">
+  <!-- <div class="w3-container w3-display-container w3-padding-16"> -->
+   
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey sidnav" style="font-weight:bold">
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-search" aria-hidden="true"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"></i></a>
+
+  </div>
+  
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:65px">
+
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge" style="height:65px;border-bottom:1px solid #ccccd3">
+    <p class="w3-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;white<b>panda </b></p>
+    <div class="w3-right" style="padding-right:100px">
+      <!-- <span class="p1 fa-stack fa-1x has-badge" data-count="4"> -->
+       <a class="fa fa-bell" style="top:6px">
+          <span class="fa fa-circle"></span>
+          <span class="num">699</span>
+      </a>
+     
+      
+  
+      <p class="circle" style="color:#ffffff"><b>AB</b></p>
+    </div>
+  
+  </header>
+  <p style="font-size:36px;margin-left:65px;font-family:arial"> <b>Content Store</b> </p>
+  <div style="background-color:#ebf7f5;margin-left:65px;margin-right:90px;padding:25px;">
+    <p style="font-size:16px;color:#00c79f"><b> Got bulk orders or almost similar orders ? Fill the order brief in an excel sheet </b></p>
+    <p style="font-size:12px;color:#718a85"><b> If you are wondering about an easy way to place orders in large numbers, we provide a way just for that.<br>Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help,<br>
+      <a href="#">we are just a click away to assist you in placing order</a></b></p>
+    <button class="button"> <b>Order via Excel Sheet</b></button>
+
+  </div>
+
+
+
+  
+
+  <!-- Product grid -->
+
+  <div class="w3-row" style="margin-top: 65px">
+    <div class="w3-col l3 s6" style="margin-left:65px">
+      <!-- <div class="w3-container"> -->
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:30%">
+        <p style="margin:20px;display:inline-block;font-size:18"><b>Blog / Article</b><br>from &#8377 500</p>
+        <p style="font-size:12px;color:#b3b3b3"><b>Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div> 
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin:20px;display:inline-block;font-size:18"><b>e-book</b><br>from &#8377 1000</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div> 
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin-left:25px;display:inline-block;font-size:18"><b>Website Content</b><br>from &#8377 1000</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div>
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin:20px;display:inline-block;font-size:18 "><b>Press Release</b><br>from &#8377 2000</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div>  
+    </div>
+    
+    <div class="w3-col l3 s6" style="margin-left:80px">
+      <!-- <div class="w3-container"> -->
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin-left:6px;display:inline-block;font-size:18;margin-bottom:20px"><b>Newsletter/E-mailer</b><br>from &#8377 1000</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div> 
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin:20px;display:inline-block;font-size:18 "><b>Report Guide</b><br>from &#8377 1000</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div>
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin:20px;display:inline-block;font-size:18 "><b>Video Script</b><br>from &#8377 1000</p>
+        <p style="font-size:12px;color:#b3b3b3"> <b>Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6" style="margin-left:85px">
+      <!-- <div class="w3-container"> -->
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%">
+        <p style="margin:20px;display:inline-block;font-size:18 "><b>Whitepaper</b><br>from &#8377 2000</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div> 
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%;padding-bottom:10px">
+        <p style="padding-left:2px;display:inline-block;font-size:18;margin-bottom:20px"><b>Product Description</b><br>from &#8377 500</p>
+        <p style="font-size:12px;color:#b3b3b3"><b> Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div> 
+      <div class="card" style="margin-top: 65px">
+        <img src="https://i.pinimg.com/originals/db/6d/1e/db6d1e68db9e2277e021958498adebb3.jpg" style="width:25%;padding-bottom:50px">
+        <p style="margin-left:5px;display:inline-block;font-size:18"><b>Company Profile / <br>Brochure</b><br>from &#8377 2000</p>
+        <p style="font-size:12px;color:#b3b3b3;margin-top:-30px"><b> Typically 450-400 words, an ebook is perfect for your target audience<br> ranging from prospective customers to users</b></p>
+        <button class="buttons"> <b>Order</b></button>
+      </div>  
+    </div>
+
+
+</div>
+
+ 
+
+
+<!-- Footer -->
+<footer class="w3-padding-64 w3-center f" id="footer">
+    <p>
+      <i class="fa fa-twitter fa-3x" aria-hidden="true" style="padding-right:40px"></i>
+      <i class="fa fa-linkedin fa-3x" aria-hidden="true" style="padding-right:40px"></i>
+      <i class="fa fa-instagram fa-3x" aria-hidden="true" style="padding-right:40px"></i>
+      <i class="fa fa-facebook fa-3x" aria-hidden="true" style="padding-right:40px"></i>
+    </p>
+    <p style="font-size: 14px;color:#b3b3b3"><b> Copyright @ 2019 White Panda Media Pvt Ltd.<br> &nbsp;&nbsp;&nbsp;&nbsp;All rights reserved</b></p>
+    <p style="font-size:14px;color:#b3b3b3"><u>Privacy policy;</u>&nbsp;&nbsp;|&nbsp;&nbsp;<u>Terms of Service</u>&nbsp;&nbsp;|&nbsp;&nbsp;<u>Service agreement</u>&nbsp;&nbsp;|&nbsp;&nbsp;<u>Contact us</u></p>
+    
+
+
+</body>
+</html>
